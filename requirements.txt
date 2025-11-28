@@ -1,0 +1,16 @@
+# requirements.txt — entorno estable para Python 3.10.11
+
+# Librerías principales
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.8.4
+seaborn==0.13.2
+kaggle==1.6.17
+
+# Machine Learning
+scikit-learn==1.4.2
+catboost==1.2.5
+xgboost==2.1.1
+
+# Utilidades
+joblib==1.4.2
