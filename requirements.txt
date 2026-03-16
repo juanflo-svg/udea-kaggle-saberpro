@@ -1,16 +1,26 @@
-# requirements.txt — entorno estable para Python 3.10.11
+# requirements.txt — entorno estable para Python 3.11.9
+# Instalar con: pip install -r requirements.txt
 
-# Librerías principales
+# ─── Datos y cómputo ───────────────────────────────────────────────────────────
 numpy==1.26.4
 pandas==2.2.3
+scipy==1.13.1
+
+# ─── Visualización ─────────────────────────────────────────────────────────────
 matplotlib==3.8.4
 seaborn==0.13.2
-kaggle==1.6.17
 
-# Machine Learning
+# ─── Machine Learning ──────────────────────────────────────────────────────────
 scikit-learn==1.4.2
-catboost==1.2.5
 xgboost==2.1.1
+catboost==1.2.5
 
-# Utilidades
+# ─── Estadística ───────────────────────────────────────────────────────────────
+statsmodels==0.14.2
+
+# ─── Utilidades ────────────────────────────────────────────────────────────────
 joblib==1.4.2
+python-dotenv==1.0.1
+
+# ─── Kaggle API ────────────────────────────────────────────────────────────────
+kaggle==1.6.17

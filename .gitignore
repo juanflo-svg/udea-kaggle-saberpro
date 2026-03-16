@@ -1,0 +1,42 @@
+# ─── Datos (se descargan automáticamente via Kaggle API) ───────────────────────
+data/
+*.csv
+*.zip
+
+# ─── Variables de entorno (contienen credenciales privadas) ────────────────────
+.env
+
+# ─── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ─── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Modelos entrenados ────────────────────────────────────────────────────────
+*.pkl
+*.joblib
+*.cbm
+*.model
+models/
+
+# ─── Entornos virtuales ────────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ─── IDEs y editores ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
